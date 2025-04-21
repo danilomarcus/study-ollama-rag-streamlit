@@ -1,0 +1,55 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+venv_py310/
+env/
+.env/
+
+# Streamlit specific
+.streamlit/
+
+# Chroma vector database
+chroma_db/
+
+# Temporary files
+temp_upload.pdf
+*.temp
+*.tmp
+.DS_Store
+
+# Log files
+*.log
+logs/
+
+# Local PDF files (arquivos temporários de upload)
+*.pdf
+
+# Ambiente Ollama (se necessário)
+.ollama/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Outros
+.pytest_cache/
+.coverage
+htmlcov/
+
+.env
