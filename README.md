@@ -1,4 +1,4 @@
-# Ollama RAG Application
+# Ollama tests and RAG Application with streamlit
 
 A bunch of AI tests using retrieval-augmented generation (RAG) application using Ollama, LangChain, and Streamlit.
 
@@ -53,9 +53,9 @@ pip3 install -r requirements.txt
 
 > ```bash
 > # On Linux/macOS
-> source venv_py310/bin/activate
+> source venv/bin/activate
 > # On Windows
-> venv_py310\Scripts\activate
+> venv\Scripts\activate
 > ```
 
 When you're done working with the project, you can deactivate the virtual environment:
